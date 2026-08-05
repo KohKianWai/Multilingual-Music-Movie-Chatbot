@@ -1,0 +1,29 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Rasa artifacts and temporary files
+.rasa/
+models/
+.temp/
+
+# Virtual environments / Rasa installation folders
+rasa/
+venv/
+env/
+rasa-env/
+backend_env/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Database or logs
+*.db
+*.log

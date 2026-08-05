@@ -1,0 +1,122 @@
+{
+  "artist": {
+    "precision": 0.9041916167664671,
+    "recall": 0.8745173745173745,
+    "f1-score": 0.8891069676153092,
+    "support": 518,
+    "confused_with": {
+      "genre": 17
+    }
+  },
+  "country": {
+    "precision": 0.7988165680473372,
+    "recall": 0.9246575342465754,
+    "f1-score": 0.8571428571428572,
+    "support": 146,
+    "confused_with": {
+      "language": 7,
+      "actor": 2
+    }
+  },
+  "actor": {
+    "precision": 0.851063829787234,
+    "recall": 0.5633802816901409,
+    "f1-score": 0.6779661016949153,
+    "support": 71,
+    "confused_with": {
+      "artist": 6
+    }
+  },
+  "year": {
+    "precision": 0.9459459459459459,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9271523178807948,
+    "support": 77,
+    "confused_with": {
+      "number": 7
+    }
+  },
+  "title": {
+    "precision": 0.9180327868852459,
+    "recall": 0.7088607594936709,
+    "f1-score": 0.8000000000000002,
+    "support": 158,
+    "confused_with": {
+      "country": 12
+    }
+  },
+  "category": {
+    "precision": 0.8571428571428571,
+    "recall": 0.9570552147239264,
+    "f1-score": 0.9043478260869565,
+    "support": 163,
+    "confused_with": {
+      "director": 2
+    }
+  },
+  "name": {
+    "precision": 0.9305555555555556,
+    "recall": 0.8589743589743589,
+    "f1-score": 0.8933333333333334,
+    "support": 78,
+    "confused_with": {
+      "country": 5
+    }
+  },
+  "language": {
+    "precision": 0.9041095890410958,
+    "recall": 0.9530685920577617,
+    "f1-score": 0.9279437609841829,
+    "support": 277,
+    "confused_with": {
+      "country": 5,
+      "genre": 4
+    }
+  },
+  "genre": {
+    "precision": 0.8311688311688312,
+    "recall": 0.8648648648648649,
+    "f1-score": 0.847682119205298,
+    "support": 222,
+    "confused_with": {
+      "artist": 8
+    }
+  },
+  "number": {
+    "precision": 0.9348534201954397,
+    "recall": 0.9862542955326461,
+    "f1-score": 0.959866220735786,
+    "support": 291,
+    "confused_with": {
+      "year": 2
+    }
+  },
+  "director": {
+    "precision": 0.75,
+    "recall": 0.47619047619047616,
+    "f1-score": 0.58252427184466,
+    "support": 63,
+    "confused_with": {
+      "category": 8
+    }
+  },
+  "micro avg": {
+    "precision": 0.8865979381443299,
+    "recall": 0.875,
+    "f1-score": 0.8807607900512069,
+    "support": 2064
+  },
+  "macro avg": {
+    "precision": 0.8750800909578191,
+    "recall": 0.8251740601257005,
+    "f1-score": 0.842460525138554,
+    "support": 2064
+  },
+  "weighted avg": {
+    "precision": 0.8865595094519853,
+    "recall": 0.875,
+    "f1-score": 0.876919203165428,
+    "support": 2064
+  },
+  "accuracy": 0.9433291881328832
+}

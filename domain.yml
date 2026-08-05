@@ -1,0 +1,110 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - find_song
+  - find_movie
+  - out_of_scope
+  - test_backend
+
+responses:
+
+  utter_out_of_scope:
+    - text: "I can help with music and movies 🎵🎬 Try asking something like 'romantic songs' or 'action movies'."
+
+  utter_song:
+  - text: "Which song would you like to listen to?"
+
+  utter_movie:
+  - text: "Which genre movie would you prefer?"
+    
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+entities:
+  - genre
+  - artist
+  - language
+  - number
+  - actor # movie
+  - director #movie
+  - category #movie
+  - year #movie
+  - title #movie
+  - country #movie
+
+slots:
+  genre:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: genre
+
+  artist:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: artist
+
+  language:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: language
+
+  number:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: number
+  
+  actor:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: actor
+
+  director:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: director
+  
+  category:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: category
+
+  year:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: year
+  
+  title:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: title
+  
+  country:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: country
+
+
+        
+actions:
+  - action_call_backend
+  - action_call_music_app
+  - action_call_movie_app

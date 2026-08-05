@@ -1,0 +1,6285 @@
+[
+  {
+    "text": "play some harry styles",
+    "entities": [
+      {
+        "start": 10,
+        "end": 22,
+        "value": "harry styles",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 16,
+        "end": 22,
+        "confidence_entity": 0.608661949634552,
+        "value": "styles",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me lana del rey music",
+    "entities": [
+      {
+        "start": 8,
+        "end": 20,
+        "value": "lana del rey",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 8,
+        "end": 16,
+        "confidence_entity": 0.7477595806121826,
+        "value": "lana del",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play twenty one pilots",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "value": "twenty one pilots",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9999223947525024,
+        "value": "twenty",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "number",
+        "start": 12,
+        "end": 15,
+        "confidence_entity": 0.7711161375045776,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want nicki minaj tracks",
+    "entities": [
+      {
+        "start": 7,
+        "end": 18,
+        "value": "nicki minaj",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.8227565884590149,
+        "value": "nicki",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.999447762966156,
+        "value": "minaj",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find sam smith songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "sam smith",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9046986103057861,
+        "value": "sam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find songs by future",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "future",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.6488029360771179,
+        "value": "future",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want tracks in urdu",
+    "entities": [
+      {
+        "start": 17,
+        "end": 21,
+        "value": "urdu",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.7053686380386353,
+        "value": "urdu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find gospel music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "gospel",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.4841964840888977,
+        "value": "gospel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find indie tracks by harry styles",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "indie",
+        "entity": "genre"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "value": "harry styles",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9998776912689209,
+        "value": "indie",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9347267746925354,
+        "value": "styles",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want turkish movies",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "turkish",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.9975956082344055,
+        "value": "turkish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suggest movies from spain",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "spain",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 20,
+        "end": 25,
+        "confidence_entity": 0.8626334071159363,
+        "value": "spain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show movies from denmark",
+    "entities": [
+      {
+        "start": 17,
+        "end": 24,
+        "value": "denmark",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.3155984878540039,
+        "value": "denmark",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show brad pitt movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "brad pitt",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.47826361656188965,
+        "value": "brad pitt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find ryan gosling films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "value": "ryan gosling",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9988546371459961,
+        "value": "ryan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find 2022 sci-fi films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "2022",
+        "entity": "year"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "sci-fi",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9793928861618042,
+        "value": "2022",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9999208450317383,
+        "value": "sci-fi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find movies with nur fazura",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "nur fazura",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 17,
+        "end": 27,
+        "confidence_entity": 0.65,
+        "value": "nur fazura",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show films by razaisyam rashid",
+    "entities": [
+      {
+        "start": 14,
+        "end": 30,
+        "value": "razaisyam rashid",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 14,
+        "end": 30,
+        "confidence_entity": 0.6530808806419373,
+        "value": "razaisyam rashid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want movies by abu bakar elliott",
+    "entities": [
+      {
+        "start": 17,
+        "end": 34,
+        "value": "abu bakar elliott",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 21,
+        "end": 34,
+        "confidence_entity": 0.4774567186832428,
+        "value": "bakar elliott",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "help me pay for a subscription",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 18,
+        "end": 30,
+        "confidence_entity": 0.42593303322792053,
+        "value": "subscription",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me pirated movies",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.40664950013160706,
+        "value": "pirated",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can I watch Netflix here",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.5072250366210938,
+        "value": "Netflix",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hack into someone's account",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.7762389183044434,
+        "value": "someone",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "post something on my Instagram",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9999431371688843,
+        "value": "post",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 18,
+        "end": 30,
+        "confidence_entity": 0.5090222358703613,
+        "value": "my Instagram",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "how many countries are in the world",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 9,
+        "end": 18,
+        "confidence_entity": 0.9984588623046875,
+        "value": "countries",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I need like 7 songs rn",
+    "entities": [
+      {
+        "start": 12,
+        "end": 13,
+        "value": "7",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9998968839645386,
+        "value": "7",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.5827410221099854,
+        "value": "rn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I’m in the mood for five songs",
+    "entities": [
+      {
+        "start": 20,
+        "end": 24,
+        "value": "five",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.7199938893318176,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.3021830916404724,
+        "value": "mood",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play thai pop songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "thai",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9996392726898193,
+        "value": "thai",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.9993917942047119,
+        "value": "pop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "search for indonesian rock",
+    "entities": [
+      {
+        "start": 11,
+        "end": 21,
+        "value": "indonesian",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 11,
+        "end": 21,
+        "confidence_entity": 0.8925501704216003,
+        "value": "indonesian",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play bengali folk songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "bengali",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.9998279809951782,
+        "value": "bengali",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9999480247497559,
+        "value": "folk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play romanian house music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "romanian",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.8016394972801208,
+        "value": "romanian",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9998853206634521,
+        "value": "house",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play lo-fi hip hop for studying",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "lo-fi",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9998881816864014,
+        "value": "lo-fi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9995063543319702,
+        "value": "hip hop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "put on some ambient sounds",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "ambient",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.7588868141174316,
+        "value": "ambient",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on some grime",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "grime",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "play ska music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "ska",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9692869782447815,
+        "value": "ska",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find japanese city pop",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "japanese",
+        "entity": "language"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "value": "city pop",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.9808419942855835,
+        "value": "japanese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "search for 7 japanese anime themes by lisa",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "7",
+        "entity": "number"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "japanese",
+        "entity": "language"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "value": "anime",
+        "entity": "genre"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "lisa",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9998711347579956,
+        "value": "7",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.7594329714775085,
+        "value": "japanese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9891101121902466,
+        "value": "anime",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want three mandarin ballads from jay chou",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "three",
+        "entity": "number"
+      },
+      {
+        "start": 13,
+        "end": 21,
+        "value": "mandarin",
+        "entity": "language"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "value": "ballads",
+        "entity": "genre"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "value": "jay chou",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9999626874923706,
+        "value": "three",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999542236328125,
+        "value": "mandarin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.9998061060905457,
+        "value": "jay",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me 6 greek folk tracks by george dalaras",
+    "entities": [
+      {
+        "start": 8,
+        "end": 9,
+        "value": "6",
+        "entity": "number"
+      },
+      {
+        "start": 10,
+        "end": 15,
+        "value": "greek",
+        "entity": "language"
+      },
+      {
+        "start": 16,
+        "end": 20,
+        "value": "folk",
+        "entity": "genre"
+      },
+      {
+        "start": 31,
+        "end": 45,
+        "value": "george dalaras",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.9999662637710571,
+        "value": "6",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.9998608827590942,
+        "value": "greek",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.9998874664306641,
+        "value": "folk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9940124154090881,
+        "value": "george",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.587268054485321,
+        "value": "dalaras",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find one dutch edm track by martin garrix",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "one",
+        "entity": "number"
+      },
+      {
+        "start": 9,
+        "end": 14,
+        "value": "dutch",
+        "entity": "language"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "edm",
+        "entity": "genre"
+      },
+      {
+        "start": 28,
+        "end": 41,
+        "value": "martin garrix",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9836007952690125,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 9,
+        "end": 14,
+        "confidence_entity": 0.9999529123306274,
+        "value": "dutch",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 15,
+        "end": 18,
+        "confidence_entity": 0.9995928406715393,
+        "value": "edm",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "director",
+        "start": 28,
+        "end": 41,
+        "confidence_entity": 0.67,
+        "value": "martin garrix",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend How the Grinch Stole Christmas",
+    "entities": [
+      {
+        "start": 10,
+        "end": 40,
+        "value": "How the Grinch Stole Christmas",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.941859781742096,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 18,
+        "end": 40,
+        "confidence_entity": 0.752021312713623,
+        "value": "Grinch Stole Christmas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "any info on Anywhere USA?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "Anywhere USA",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.7292224168777466,
+        "value": "USA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lookup Boswerken in Kongo",
+    "entities": [
+      {
+        "start": 7,
+        "end": 25,
+        "value": "Boswerken in Kongo",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.657166063785553,
+        "value": "Boswerken",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "check Geemu Oobaa ni youkoso",
+    "entities": [
+      {
+        "start": 6,
+        "end": 28,
+        "value": "Geemu Oobaa ni youkoso",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 6,
+        "end": 20,
+        "confidence_entity": 0.5657005906105042,
+        "value": "Geemu Oobaa ni",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "watch A Ticket to Mexico",
+    "entities": [
+      {
+        "start": 6,
+        "end": 24,
+        "value": "A Ticket to Mexico",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 6,
+        "end": 7,
+        "confidence_entity": 0.5621296167373657,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.9938045740127563,
+        "value": "mexico",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "search for 8 films",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "8",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "year",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.7124915719032288,
+        "value": "8",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suggest four Italian classics",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "four",
+        "entity": "number"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "value": "Italian",
+        "entity": "country"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "value": "classics",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.99978107213974,
+        "value": "four",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.7918156385421753,
+        "value": "italian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want three Chinese martial arts movies",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "three",
+        "entity": "number"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "value": "Chinese",
+        "entity": "country"
+      },
+      {
+        "start": 21,
+        "end": 33,
+        "value": "martial arts",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.999957799911499,
+        "value": "three",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.9999179840087891,
+        "value": "Chinese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "director",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9771165251731873,
+        "value": "martial",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search for the horror film Ghost in the Machine",
+    "entities": [
+      {
+        "start": 15,
+        "end": 21,
+        "value": "horror",
+        "entity": "category"
+      },
+      {
+        "start": 27,
+        "end": 47,
+        "value": "Ghost in the Machine",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 15,
+        "end": 21,
+        "confidence_entity": 0.9999327659606934,
+        "value": "horror",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "name",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.36398062109947205,
+        "value": "Ghost",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.896187424659729,
+        "value": "Machine",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "look for A Question of Priorities in the sci-fi section",
+    "entities": [
+      {
+        "start": 9,
+        "end": 33,
+        "value": "A Question of Priorities",
+        "entity": "title"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "value": "sci-fi",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 9,
+        "end": 33,
+        "confidence_entity": 0.997444748878479,
+        "value": "A Question of Priorities",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 41,
+        "end": 55,
+        "confidence_entity": 0.565087616443634,
+        "value": "sci-fi section",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want to see the action hit Hard Rock Roller Coaster",
+    "entities": [
+      {
+        "start": 18,
+        "end": 24,
+        "value": "action",
+        "entity": "category"
+      },
+      {
+        "start": 29,
+        "end": 53,
+        "value": "Hard Rock Roller Coaster",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.6910338401794434,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.390969842672348,
+        "value": "action hit",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 29,
+        "end": 53,
+        "confidence_entity": 0.7826969027519226,
+        "value": "Hard Rock Roller Coaster",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend five Italian comedies starring Adam Kaci",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "five",
+        "entity": "number"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "value": "Italian",
+        "entity": "country"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "value": "comedies",
+        "entity": "category"
+      },
+      {
+        "start": 41,
+        "end": 50,
+        "value": "Adam Kaci",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 15,
+        "end": 22,
+        "confidence_entity": 0.978360652923584,
+        "value": "italian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.9983962178230286,
+        "value": "comedies",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 41,
+        "end": 50,
+        "confidence_entity": 0.9996426105499268,
+        "value": "Adam Kaci",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play camila cabello music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "value": "camila cabello",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.6990630030632019,
+        "value": "camila",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.8370777368545532,
+        "value": "cabello",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me j. cole tracks",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "j. cole",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.9961712956428528,
+        "value": "j",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.8316499590873718,
+        "value": "cole",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want music by frank ocean",
+    "entities": [
+      {
+        "start": 16,
+        "end": 27,
+        "value": "frank ocean",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 16,
+        "end": 27,
+        "confidence_entity": 0.5709494352340698,
+        "value": "frank ocean",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play man bai music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "man bai",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9912612438201904,
+        "value": "man",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.7250466346740723,
+        "value": "bai",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find biography films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "biography",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.618228018283844,
+        "value": "biography",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find movies from mexico",
+    "entities": [
+      {
+        "start": 17,
+        "end": 23,
+        "value": "mexico",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 17,
+        "end": 23,
+        "confidence_entity": 0.975045382976532,
+        "value": "mexico",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "movies with robert downey jr",
+    "entities": [
+      {
+        "start": 12,
+        "end": 28,
+        "value": "robert downey jr",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.8671149611473083,
+        "value": "downey",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want movies with cate blanchett",
+    "entities": [
+      {
+        "start": 19,
+        "end": 33,
+        "value": "cate blanchett",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 24,
+        "end": 33,
+        "confidence_entity": 0.5060441493988037,
+        "value": "blanchett",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want anya taylor-joy films",
+    "entities": [
+      {
+        "start": 7,
+        "end": 22,
+        "value": "anya taylor-joy",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.4440302550792694,
+        "value": "anya",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 12,
+        "end": 22,
+        "confidence_entity": 0.8206820487976074,
+        "value": "taylor-joy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find movies with pedro pascal",
+    "entities": [
+      {
+        "start": 17,
+        "end": 29,
+        "value": "pedro pascal",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.7850201725959778,
+        "value": "pedro",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "actor",
+        "start": 23,
+        "end": 29,
+        "confidence_entity": 0.2793131172657013,
+        "value": "pascal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show viola davis movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "value": "viola davis",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 5,
+        "end": 16,
+        "confidence_entity": 0.534611165523529,
+        "value": "viola davis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "movies by quentin tarantino",
+    "entities": [
+      {
+        "start": 10,
+        "end": 27,
+        "value": "quentin tarantino",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.5553127527236938,
+        "value": "quentin",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 18,
+        "end": 27,
+        "confidence_entity": 0.520740807056427,
+        "value": "tarantino",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "james cameron movies",
+    "entities": [
+      {
+        "start": 0,
+        "end": 13,
+        "value": "james cameron",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 6,
+        "end": 13,
+        "confidence_entity": 0.9940282106399536,
+        "value": "cameron",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show movies by ridley scott",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "ridley scott",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 15,
+        "end": 27,
+        "confidence_entity": 0.66,
+        "value": "ridley scott",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find wes anderson movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 17,
+        "value": "wes anderson",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9624531865119934,
+        "value": "wes",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 9,
+        "end": 17,
+        "confidence_entity": 0.5738890767097473,
+        "value": "anderson",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show movies by ryan coogler",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "ryan coogler",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9975202679634094,
+        "value": "ryan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.5386849045753479,
+        "value": "coogler",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show 2020 action movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "2020",
+        "entity": "year"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "action",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9610347151756287,
+        "value": "2020",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9999265670776367,
+        "value": "action",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "recommend films with nora danish",
+    "entities": [
+      {
+        "start": 21,
+        "end": 32,
+        "value": "nora danish",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9473007917404175,
+        "value": "nora",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 26,
+        "end": 32,
+        "confidence_entity": 0.7960479259490967,
+        "value": "Danish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want films with bront palarae",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "bront palarae",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.8232374787330627,
+        "value": "palarae",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want films with syamsul yusof",
+    "entities": [
+      {
+        "start": 18,
+        "end": 31,
+        "value": "syamsul yusof",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.7751633524894714,
+        "value": "syamsul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "movies by syamsul yusof",
+    "entities": [
+      {
+        "start": 10,
+        "end": 23,
+        "value": "syamsul yusof",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.6879393458366394,
+        "value": "syamsul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend films by mamat khalid",
+    "entities": [
+      {
+        "start": 19,
+        "end": 31,
+        "value": "mamat khalid",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 19,
+        "end": 31,
+        "confidence_entity": 0.9832140207290649,
+        "value": "mamat khalid",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "can you edit my photo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.952088475227356,
+        "value": "edit",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me about Malaysia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 14,
+        "end": 22,
+        "confidence_entity": 0.9591770768165588,
+        "value": "malaysia",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want to listen to a song",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 20,
+        "end": 21,
+        "confidence_entity": 0.4433494210243225,
+        "value": "a",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Lata Mangeshkar songs",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Lata Mangeshkar",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9295679330825806,
+        "value": "Lata",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.3953884243965149,
+        "value": "Mangeshkar",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on polish rap",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "polish",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9995474219322205,
+        "value": "polish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.9951543807983398,
+        "value": "rap",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find tagalog acoustic music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "tagalog",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.43982258439064026,
+        "value": "tagalog",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 13,
+        "end": 21,
+        "confidence_entity": 0.9999382495880127,
+        "value": "acoustic",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play celtic folk music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "celtic",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9953193068504333,
+        "value": "celtic",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 12,
+        "end": 16,
+        "confidence_entity": 0.999944806098938,
+        "value": "folk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find some punjabi bhangra",
+    "entities": [
+      {
+        "start": 10,
+        "end": 17,
+        "value": "punjabi",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 10,
+        "end": 17,
+        "confidence_entity": 0.9998961687088013,
+        "value": "punjabi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 18,
+        "end": 25,
+        "confidence_entity": 0.7589852809906006,
+        "value": "bhangra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play electronic dance music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "electronic",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.9999431371688843,
+        "value": "electronic",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.993319034576416,
+        "value": "dance",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find house music for a party",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "house",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9951369166374207,
+        "value": "house",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9882395267486572,
+        "value": "a party",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play disco classics",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "disco",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.30345016717910767,
+        "value": "disco",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 11,
+        "end": 19,
+        "confidence_entity": 0.9476872086524963,
+        "value": "classics",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "search for shoegaze",
+    "entities": [
+      {
+        "start": 11,
+        "end": 19,
+        "value": "shoegaze",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "put on two country hits by luke combs",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "two",
+        "entity": "number"
+      },
+      {
+        "start": 11,
+        "end": 18,
+        "value": "country",
+        "entity": "genre"
+      },
+      {
+        "start": 27,
+        "end": 37,
+        "value": "luke combs",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9999650716781616,
+        "value": "two",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9999622106552124,
+        "value": "country",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 27,
+        "end": 31,
+        "confidence_entity": 0.8598724603652954,
+        "value": "luke",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play 7 latin reggaeton tracks",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "7",
+        "entity": "number"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "latin",
+        "entity": "language"
+      },
+      {
+        "start": 13,
+        "end": 22,
+        "value": "reggaeton",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.999848484992981,
+        "value": "7",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9492682814598083,
+        "value": "latin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 13,
+        "end": 22,
+        "confidence_entity": 0.9998648166656494,
+        "value": "reggaeton",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play nine punjabi bhangra hits from diljit dosanjh",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "nine",
+        "entity": "number"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "value": "punjabi",
+        "entity": "language"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "value": "bhangra",
+        "entity": "genre"
+      },
+      {
+        "start": 36,
+        "end": 50,
+        "value": "diljit dosanjh",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9985637068748474,
+        "value": "nine",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 10,
+        "end": 25,
+        "confidence_entity": 0.6908578276634216,
+        "value": "punjabi bhangra",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 36,
+        "end": 50,
+        "confidence_entity": 0.9998099207878113,
+        "value": "diljit dosanjh",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i need 7 telugu cinema songs from sid sriram",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "7",
+        "entity": "number"
+      },
+      {
+        "start": 9,
+        "end": 15,
+        "value": "telugu",
+        "entity": "language"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "value": "cinema",
+        "entity": "genre"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "value": "sid sriram",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9998030066490173,
+        "value": "7",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 9,
+        "end": 15,
+        "confidence_entity": 0.999972939491272,
+        "value": "telugu",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.9912440776824951,
+        "value": "sid",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.8598967790603638,
+        "value": "sriram",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find work by Adam Jordan",
+    "entities": [
+      {
+        "start": 13,
+        "end": 24,
+        "value": "Adam Jordan",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 13,
+        "end": 17,
+        "confidence_entity": 0.9971555471420288,
+        "value": "Adam",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "director",
+        "start": 18,
+        "end": 24,
+        "confidence_entity": 0.8550964593887329,
+        "value": "Jordan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "any movies starring znur Turalioglu?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 35,
+        "value": "znur Turalioglu",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.9990874528884888,
+        "value": "znur",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.9145591259002686,
+        "value": "Turalioglu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend films with ztrk Irem",
+    "entities": [
+      {
+        "start": 21,
+        "end": 30,
+        "value": "ztrk Irem",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 21,
+        "end": 25,
+        "confidence_entity": 0.9977642297744751,
+        "value": "ztrk",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 26,
+        "end": 30,
+        "confidence_entity": 0.5676990151405334,
+        "value": "Irem",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "list movies with ztrk Serengil",
+    "entities": [
+      {
+        "start": 17,
+        "end": 30,
+        "value": "ztrk Serengil",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9984129667282104,
+        "value": "ztrk",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "country",
+        "start": 22,
+        "end": 30,
+        "confidence_entity": 0.524185836315155,
+        "value": "Serengil",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find me a 2014 release",
+    "entities": [
+      {
+        "start": 10,
+        "end": 14,
+        "value": "2014",
+        "entity": "year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 10,
+        "end": 14,
+        "confidence_entity": 0.8569991588592529,
+        "value": "2014",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "check out Beyond the Call of Booty",
+    "entities": [
+      {
+        "start": 10,
+        "end": 34,
+        "value": "Beyond the Call of Booty",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 6,
+        "end": 9,
+        "confidence_entity": 0.8529416918754578,
+        "value": "out",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 10,
+        "end": 34,
+        "confidence_entity": 0.9984790682792664,
+        "value": "Beyond the Call of Booty",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find Guardian of the Wilderness",
+    "entities": [
+      {
+        "start": 5,
+        "end": 31,
+        "value": "Guardian of the Wilderness",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 31,
+        "confidence_entity": 0.7920418381690979,
+        "value": "Guardian of the Wilderness",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show Hankala potilas",
+    "entities": [
+      {
+        "start": 5,
+        "end": 20,
+        "value": "Hankala potilas",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 20,
+        "confidence_entity": 0.30148616433143616,
+        "value": "Hankala potilas",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend Japanese hits",
+    "entities": [
+      {
+        "start": 10,
+        "end": 18,
+        "value": "Japanese",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 10,
+        "end": 18,
+        "confidence_entity": 0.6176235675811768,
+        "value": "japanese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want to see Thai films",
+    "entities": [
+      {
+        "start": 14,
+        "end": 18,
+        "value": "Thai",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.5137385129928589,
+        "value": "thai",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find 6 British war films from 1940",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "6",
+        "entity": "number"
+      },
+      {
+        "start": 7,
+        "end": 14,
+        "value": "British",
+        "entity": "country"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "value": "war",
+        "entity": "category"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "value": "1940",
+        "entity": "year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9969266057014465,
+        "value": "6",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country",
+        "start": 7,
+        "end": 18,
+        "confidence_entity": 0.6446113586425781,
+        "value": "British war",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "year",
+        "start": 30,
+        "end": 34,
+        "confidence_entity": 0.9982998967170715,
+        "value": "1940",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find the 2010 Italian drama A Place Among the Living",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "2010",
+        "entity": "year"
+      },
+      {
+        "start": 14,
+        "end": 21,
+        "value": "Italian",
+        "entity": "country"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "value": "drama",
+        "entity": "category"
+      },
+      {
+        "start": 28,
+        "end": 52,
+        "value": "A Place Among the Living",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.9884467124938965,
+        "value": "2010",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9982346296310425,
+        "value": "italian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 22,
+        "end": 27,
+        "confidence_entity": 0.9980635046958923,
+        "value": "drama",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "title",
+        "start": 28,
+        "end": 52,
+        "confidence_entity": 0.7808719277381897,
+        "value": "A Place Among the Living",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play maroon 5",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "maroon 5",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.9998321533203125,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me miley cyrus songs",
+    "entities": [
+      {
+        "start": 8,
+        "end": 19,
+        "value": "miley cyrus",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.8745942115783691,
+        "value": "cyrus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me mac miller songs",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "mac miller",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.8638037443161011,
+        "value": "mac",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9970338344573975,
+        "value": "miller",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find songs by maluma in spanish",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "maluma",
+        "entity": "artist"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "value": "spanish",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9450873136520386,
+        "value": "maluma",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9999006986618042,
+        "value": "spanish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play alleycats songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "alleycats",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.7508909106254578,
+        "value": "alleycats",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want music by sudirman",
+    "entities": [
+      {
+        "start": 16,
+        "end": 24,
+        "value": "sudirman",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.7386043071746826,
+        "value": "sudirman",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play spider music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "spider",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.6075498461723328,
+        "value": "spider",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show thai cinema",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "thai",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.7682745456695557,
+        "value": "thai",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suggest movies from germany",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "germany",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.9992947578430176,
+        "value": "germany",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend movies from turkey",
+    "entities": [
+      {
+        "start": 22,
+        "end": 28,
+        "value": "turkey",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 22,
+        "end": 28,
+        "confidence_entity": 0.36005082726478577,
+        "value": "turkey",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show denzel washington movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 22,
+        "value": "denzel washington",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.7636560797691345,
+        "value": "denzel",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show movies by greta gerwig",
+    "entities": [
+      {
+        "start": 15,
+        "end": 27,
+        "value": "greta gerwig",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.5530659556388855,
+        "value": "greta",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 21,
+        "end": 27,
+        "confidence_entity": 0.9940444827079773,
+        "value": "gerwig",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me movies by tim burton",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "tim burton",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 18,
+        "end": 28,
+        "confidence_entity": 0.66,
+        "value": "tim burton",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find zack snyder films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "value": "zack snyder",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.519494891166687,
+        "value": "snyder",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find 2015 comedy movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "2015",
+        "entity": "year"
+      },
+      {
+        "start": 10,
+        "end": 16,
+        "value": "comedy",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9842320680618286,
+        "value": "2015",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 10,
+        "end": 16,
+        "confidence_entity": 0.9999197721481323,
+        "value": "comedy",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "movies with shaheizy sam",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "shaheizy sam",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.42936205863952637,
+        "value": "sam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "recommend movies with yusry kru",
+    "entities": [
+      {
+        "start": 22,
+        "end": 31,
+        "value": "yusry kru",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 22,
+        "end": 31,
+        "confidence_entity": 0.37271636724472046,
+        "value": "yusry kru",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show movies with diana danielle",
+    "entities": [
+      {
+        "start": 17,
+        "end": 31,
+        "value": "diana danielle",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 17,
+        "end": 31,
+        "confidence_entity": 0.4104653000831604,
+        "value": "diana danielle",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "give me legal advice",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.9595077633857727,
+        "value": "legal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who wrote Harry Potter",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 10,
+        "end": 22,
+        "confidence_entity": 0.9747408628463745,
+        "value": "Harry Potter",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "who is Taylor Swift",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 7,
+        "end": 19,
+        "confidence_entity": 0.9993472695350647,
+        "value": "taylor swift",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "suggest music from Akon",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "Akon",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9370731711387634,
+        "value": "Akon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play mandarin ballads",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "mandarin",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 13,
+        "confidence_entity": 0.999466598033905,
+        "value": "mandarin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9970571994781494,
+        "value": "ballads",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i've been looking for vietnamese indie",
+    "entities": [
+      {
+        "start": 22,
+        "end": 32,
+        "value": "vietnamese",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 22,
+        "end": 32,
+        "confidence_entity": 0.9968178272247314,
+        "value": "vietnamese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.9887232780456543,
+        "value": "indie",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want swahili beats",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "swahili",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.45435991883277893,
+        "value": "swahili",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me latin dance tracks",
+    "entities": [
+      {
+        "start": 8,
+        "end": 13,
+        "value": "latin",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 8,
+        "end": 13,
+        "confidence_entity": 0.9909277558326721,
+        "value": "latin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 14,
+        "end": 19,
+        "confidence_entity": 0.9964998960494995,
+        "value": "dance",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play creole music",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "creole",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.663920521736145,
+        "value": "creole",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on some indie rock",
+    "entities": [
+      {
+        "start": 12,
+        "end": 17,
+        "value": "indie",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9999516010284424,
+        "value": "indie",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9018534421920776,
+        "value": "rock",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want to hear afrobeats",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "afrobeats",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I want some bossa nova",
+    "entities": [
+      {
+        "start": 12,
+        "end": 22,
+        "value": "bossa nova",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "search for punjabi folk by sidhu moose wala",
+    "entities": [
+      {
+        "start": 11,
+        "end": 18,
+        "value": "punjabi",
+        "entity": "language"
+      },
+      {
+        "start": 19,
+        "end": 23,
+        "value": "folk",
+        "entity": "genre"
+      },
+      {
+        "start": 27,
+        "end": 43,
+        "value": "sidhu moose wala",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 11,
+        "end": 18,
+        "confidence_entity": 0.9999463558197021,
+        "value": "punjabi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 19,
+        "end": 23,
+        "confidence_entity": 0.9782132506370544,
+        "value": "folk",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9538190960884094,
+        "value": "sidhu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 39,
+        "end": 43,
+        "confidence_entity": 0.7203159928321838,
+        "value": "wala",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i need three german opera pieces",
+    "entities": [
+      {
+        "start": 7,
+        "end": 12,
+        "value": "three",
+        "entity": "number"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "value": "german",
+        "entity": "language"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "value": "opera",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9998898506164551,
+        "value": "three",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 13,
+        "end": 25,
+        "confidence_entity": 0.49639928340911865,
+        "value": "german opera",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "play four italian opera pieces by andrea bocelli",
+    "entities": [
+      {
+        "start": 5,
+        "end": 9,
+        "value": "four",
+        "entity": "number"
+      },
+      {
+        "start": 10,
+        "end": 17,
+        "value": "italian",
+        "entity": "language"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "value": "opera",
+        "entity": "genre"
+      },
+      {
+        "start": 34,
+        "end": 48,
+        "value": "andrea bocelli",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 9,
+        "confidence_entity": 0.9996641874313354,
+        "value": "four",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 10,
+        "end": 23,
+        "confidence_entity": 0.796231210231781,
+        "value": "italian opera",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 34,
+        "end": 48,
+        "confidence_entity": 0.9998606443405151,
+        "value": "andrea bocelli",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i need 8 portuguese fado melodies by amália rodrigues",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "8",
+        "entity": "number"
+      },
+      {
+        "start": 9,
+        "end": 19,
+        "value": "portuguese",
+        "entity": "language"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "value": "fado",
+        "entity": "genre"
+      },
+      {
+        "start": 37,
+        "end": 53,
+        "value": "amália rodrigues",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9999679327011108,
+        "value": "8",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 9,
+        "end": 19,
+        "confidence_entity": 0.999987006187439,
+        "value": "portuguese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.5764809846878052,
+        "value": "fado",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 37,
+        "end": 53,
+        "confidence_entity": 0.9987107515335083,
+        "value": "amália rodrigues",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on 3 thai pop songs from tilly birds",
+    "entities": [
+      {
+        "start": 7,
+        "end": 8,
+        "value": "3",
+        "entity": "number"
+      },
+      {
+        "start": 9,
+        "end": 13,
+        "value": "thai",
+        "entity": "language"
+      },
+      {
+        "start": 14,
+        "end": 17,
+        "value": "pop",
+        "entity": "genre"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "value": "tilly birds",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 8,
+        "confidence_entity": 0.9999277591705322,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 9,
+        "end": 13,
+        "confidence_entity": 0.999800980091095,
+        "value": "thai",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.6409221887588501,
+        "value": "tilly",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search for 2011 films",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "2011",
+        "entity": "year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9974997639656067,
+        "value": "2011",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search for Billard ltage",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "Billard ltage",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "find A Bit of Happiness",
+    "entities": [
+      {
+        "start": 5,
+        "end": 23,
+        "value": "A Bit of Happiness",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9792414307594299,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 11,
+        "end": 13,
+        "confidence_entity": 0.9991596937179565,
+        "value": "of",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search Horowitz in London A Royal Concert",
+    "entities": [
+      {
+        "start": 7,
+        "end": 41,
+        "value": "Horowitz in London A Royal Concert",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 19,
+        "end": 25,
+        "confidence_entity": 0.40081706643104553,
+        "value": "London",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.8235985040664673,
+        "value": "A Royal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tell me about Guess Whos Coming Out of Joy",
+    "entities": [
+      {
+        "start": 14,
+        "end": 42,
+        "value": "Guess Whos Coming Out of Joy",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 14,
+        "end": 31,
+        "confidence_entity": 0.6313996911048889,
+        "value": "Guess Whos Coming",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.39257845282554626,
+        "value": "of Joy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "watch Brnebussen",
+    "entities": [
+      {
+        "start": 6,
+        "end": 16,
+        "value": "Brnebussen",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 6,
+        "end": 16,
+        "confidence_entity": 0.5708385109901428,
+        "value": "Brnebussen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "suggest Hvem du end er",
+    "entities": [
+      {
+        "start": 8,
+        "end": 22,
+        "value": "Hvem du end er",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 13,
+        "end": 15,
+        "confidence_entity": 0.7927430272102356,
+        "value": "du",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "director",
+        "start": 20,
+        "end": 22,
+        "confidence_entity": 0.3752192258834839,
+        "value": "er",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "look for Guess Whos Not Going to the Luau",
+    "entities": [
+      {
+        "start": 9,
+        "end": 41,
+        "value": "Guess Whos Not Going to the Luau",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 9,
+        "end": 29,
+        "confidence_entity": 0.8081559538841248,
+        "value": "Guess Whos Not Going",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 37,
+        "end": 41,
+        "confidence_entity": 0.5458036065101624,
+        "value": "Luau",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find Az ipar jra l",
+    "entities": [
+      {
+        "start": 5,
+        "end": 18,
+        "value": "Az ipar jra l",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 5,
+        "end": 7,
+        "confidence_entity": 0.9233759045600891,
+        "value": "Az",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.3647225797176361,
+        "value": "ipar",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.8722435832023621,
+        "value": "jra l",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find songs by one direction",
+    "entities": [
+      {
+        "start": 14,
+        "end": 27,
+        "value": "one direction",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.9963037967681885,
+        "value": "one",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "give me lewis capaldi music",
+    "entities": [
+      {
+        "start": 8,
+        "end": 21,
+        "value": "lewis capaldi",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.8724251985549927,
+        "value": "capaldi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want to hear rock",
+    "entities": [
+      {
+        "start": 15,
+        "end": 19,
+        "value": "rock",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show me the latest malay music",
+    "entities": [
+      {
+        "start": 19,
+        "end": 24,
+        "value": "malay",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9289485812187195,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 19,
+        "end": 24,
+        "confidence_entity": 0.9999935626983643,
+        "value": "malay",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find music by meet uncle hussain",
+    "entities": [
+      {
+        "start": 14,
+        "end": 32,
+        "value": "meet uncle hussain",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9422970414161682,
+        "value": "meet",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 19,
+        "end": 32,
+        "confidence_entity": 0.8800973296165466,
+        "value": "uncle hussain",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find cinema from thailand",
+    "entities": [
+      {
+        "start": 17,
+        "end": 25,
+        "value": "thailand",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 17,
+        "end": 25,
+        "confidence_entity": 0.9886587262153625,
+        "value": "thailand",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "films by steven spielberg",
+    "entities": [
+      {
+        "start": 9,
+        "end": 25,
+        "value": "steven spielberg",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 9,
+        "end": 25,
+        "confidence_entity": 0.47831112146377563,
+        "value": "steven spielberg",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want denis villeneuve films",
+    "entities": [
+      {
+        "start": 7,
+        "end": 23,
+        "value": "denis villeneuve",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.4465840458869934,
+        "value": "villeneuve",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show alfred hitchcock films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 21,
+        "value": "alfred hitchcock",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "give me 2019 drama movies",
+    "entities": [
+      {
+        "start": 8,
+        "end": 12,
+        "value": "2019",
+        "entity": "year"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "drama",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9786919951438904,
+        "value": "2019",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.9999145269393921,
+        "value": "drama",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show films with lisa surihani",
+    "entities": [
+      {
+        "start": 16,
+        "end": 29,
+        "value": "lisa surihani",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 16,
+        "end": 29,
+        "confidence_entity": 0.6842920780181885,
+        "value": "lisa surihani",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find movies by david teo",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "david teo",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "director",
+        "start": 15,
+        "end": 20,
+        "confidence_entity": 0.9989314675331116,
+        "value": "david",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "year",
+        "start": 21,
+        "end": 24,
+        "confidence_entity": 0.36954769492149353,
+        "value": "teo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is 2+2",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.965217649936676,
+        "value": "2+2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "book me a concert ticket",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 10,
+        "end": 24,
+        "confidence_entity": 0.9135192632675171,
+        "value": "concert ticket",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find me a job",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 10,
+        "end": 13,
+        "confidence_entity": 0.6692013144493103,
+        "value": "job",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Give me exactly 12 songs",
+    "entities": [
+      {
+        "start": 16,
+        "end": 18,
+        "value": "12",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.6558815240859985,
+        "value": "exactly",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 16,
+        "end": 18,
+        "confidence_entity": 0.9998998641967773,
+        "value": "12",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Hook me up with six songs",
+    "entities": [
+      {
+        "start": 16,
+        "end": 19,
+        "value": "six",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.6734160780906677,
+        "value": "Hook",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 8,
+        "end": 10,
+        "confidence_entity": 0.6878768801689148,
+        "value": "up",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 16,
+        "end": 19,
+        "confidence_entity": 0.9953016042709351,
+        "value": "six",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play hebrew worship songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "hebrew",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9999656677246094,
+        "value": "hebrew",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.943256676197052,
+        "value": "worship",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find norwegian metal",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "norwegian",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 20,
+        "confidence_entity": 0.6265171766281128,
+        "value": "norwegian metal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on a rock playlist",
+    "entities": [
+      {
+        "start": 9,
+        "end": 13,
+        "value": "rock",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "search for punk rock",
+    "entities": [
+      {
+        "start": 11,
+        "end": 15,
+        "value": "punk",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "play latin pop",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "latin",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.9500865936279297,
+        "value": "latin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find synthwave tracks",
+    "entities": [
+      {
+        "start": 5,
+        "end": 14,
+        "value": "synthwave",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.7425177097320557,
+        "value": "synthwave",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find dubstep tracks",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "dubstep",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "play emo music from the 2000s",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "emo",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 20,
+        "end": 23,
+        "confidence_entity": 0.9928175210952759,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on garage rock",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "garage",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "put on metallica metal tracks",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "metallica",
+        "entity": "artist"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "value": "metal",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 7,
+        "end": 16,
+        "confidence_entity": 0.994657039642334,
+        "value": "metallica",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 17,
+        "end": 22,
+        "confidence_entity": 0.9889819025993347,
+        "value": "metal",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find 5 latin salsa tracks by marc anthony",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "5",
+        "entity": "number"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "latin",
+        "entity": "language"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "value": "salsa",
+        "entity": "genre"
+      },
+      {
+        "start": 29,
+        "end": 41,
+        "value": "marc anthony",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9999430179595947,
+        "value": "5",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9114823341369629,
+        "value": "latin",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 13,
+        "end": 18,
+        "confidence_entity": 0.6227576732635498,
+        "value": "salsa",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 29,
+        "end": 41,
+        "confidence_entity": 0.8691970705986023,
+        "value": "marc anthony",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search for 3 vietnamese v-pop tracks from son tung mtp",
+    "entities": [
+      {
+        "start": 11,
+        "end": 12,
+        "value": "3",
+        "entity": "number"
+      },
+      {
+        "start": 13,
+        "end": 23,
+        "value": "vietnamese",
+        "entity": "language"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "value": "v-pop",
+        "entity": "genre"
+      },
+      {
+        "start": 42,
+        "end": 54,
+        "value": "son tung mtp",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 11,
+        "end": 12,
+        "confidence_entity": 0.9999548196792603,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 13,
+        "end": 23,
+        "confidence_entity": 0.9978233575820923,
+        "value": "vietnamese",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 24,
+        "end": 29,
+        "confidence_entity": 0.5956207513809204,
+        "value": "v-pop",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.9485670328140259,
+        "value": "tung",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me A Boto",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "A Boto",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.4154397249221802,
+        "value": "A Boto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to see znur rmerci",
+    "entities": [
+      {
+        "start": 14,
+        "end": 25,
+        "value": "znur rmerci",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 14,
+        "end": 18,
+        "confidence_entity": 0.9936967492103577,
+        "value": "znur",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find zz Njen movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "zz Njen",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.8064135313034058,
+        "value": "Njen",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me Astrologia",
+    "entities": [
+      {
+        "start": 8,
+        "end": 18,
+        "value": "Astrologia",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "show Au noir",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "Au noir",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 5,
+        "end": 7,
+        "confidence_entity": 0.9288610219955444,
+        "value": "Au",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 8,
+        "end": 12,
+        "confidence_entity": 0.9978396892547607,
+        "value": "noir",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find Danish movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "Danish",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "actor",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.821204423904419,
+        "value": "Danish",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me six German documentaries from the nineties",
+    "entities": [
+      {
+        "start": 8,
+        "end": 11,
+        "value": "six",
+        "entity": "number"
+      },
+      {
+        "start": 12,
+        "end": 18,
+        "value": "German",
+        "entity": "country"
+      },
+      {
+        "start": 19,
+        "end": 32,
+        "value": "documentaries",
+        "entity": "category"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "value": "nineties",
+        "entity": "year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.9994091987609863,
+        "value": "six",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "country",
+        "start": 12,
+        "end": 18,
+        "confidence_entity": 0.9985992312431335,
+        "value": "german",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 19,
+        "end": 32,
+        "confidence_entity": 0.9996941089630127,
+        "value": "documentaries",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 38,
+        "end": 41,
+        "confidence_entity": 0.7786125540733337,
+        "value": "the",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "year",
+        "start": 42,
+        "end": 50,
+        "confidence_entity": 0.9175328016281128,
+        "value": "nineties",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "songs from imagine dragons",
+    "entities": [
+      {
+        "start": 11,
+        "end": 26,
+        "value": "imagine dragons",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 19,
+        "end": 26,
+        "confidence_entity": 0.9837475419044495,
+        "value": "dragons",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show doja cat songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 13,
+        "value": "doja cat",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "play cardi b",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "cardi b",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 5,
+        "end": 10,
+        "confidence_entity": 0.24199897050857544,
+        "value": "cardi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want a$ap rocky songs",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "a$ap rocky",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 7,
+        "end": 11,
+        "confidence_entity": 0.6079607009887695,
+        "value": "a$ap",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "genre",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.9993089437484741,
+        "value": "rocky",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me j balvin songs in spanish",
+    "entities": [
+      {
+        "start": 8,
+        "end": 16,
+        "value": "j balvin",
+        "entity": "artist"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "value": "spanish",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 8,
+        "end": 9,
+        "confidence_entity": 0.9997904896736145,
+        "value": "j",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 26,
+        "end": 33,
+        "confidence_entity": 0.999975323677063,
+        "value": "spanish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "play twice in korean",
+    "entities": [
+      {
+        "start": 5,
+        "end": 10,
+        "value": "twice",
+        "entity": "artist"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "value": "korean",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 14,
+        "end": 20,
+        "confidence_entity": 0.9999198913574219,
+        "value": "korean",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "i want sonu nigam songs in hindi",
+    "entities": [
+      {
+        "start": 7,
+        "end": 17,
+        "value": "sonu nigam",
+        "entity": "artist"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "value": "hindi",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 12,
+        "end": 17,
+        "confidence_entity": 0.8813737034797668,
+        "value": "nigam",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "language",
+        "start": 27,
+        "end": 32,
+        "confidence_entity": 0.9998960494995117,
+        "value": "hindi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show pop shuvit songs",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "pop shuvit",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "genre",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9996538162231445,
+        "value": "pop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me adventure films",
+    "entities": [
+      {
+        "start": 8,
+        "end": 17,
+        "value": "adventure",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "find german films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 11,
+        "value": "german",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.9878101348876953,
+        "value": "german",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find films from italy",
+    "entities": [
+      {
+        "start": 16,
+        "end": 21,
+        "value": "italy",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 16,
+        "end": 21,
+        "confidence_entity": 0.5067014098167419,
+        "value": "italy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find sydney sweeney movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 19,
+        "value": "sydney sweeney",
+        "entity": "actor"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 5,
+        "end": 11,
+        "confidence_entity": 0.1968725472688675,
+        "value": "sydney",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.4858326315879822,
+        "value": "sweeney",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want films by jordan peele",
+    "entities": [
+      {
+        "start": 16,
+        "end": 28,
+        "value": "jordan peele",
+        "entity": "director"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "name",
+        "start": 16,
+        "end": 28,
+        "confidence_entity": 0.6396902799606323,
+        "value": "jordan peele",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show 2 drama films",
+    "entities": [
+      {
+        "start": 5,
+        "end": 6,
+        "value": "2",
+        "entity": "number"
+      },
+      {
+        "start": 7,
+        "end": 12,
+        "value": "drama",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "year",
+        "start": 5,
+        "end": 6,
+        "confidence_entity": 0.9296863079071045,
+        "value": "2",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 7,
+        "end": 12,
+        "confidence_entity": 0.9999392032623291,
+        "value": "drama",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "convert 100 USD to MYR",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 8,
+        "end": 11,
+        "confidence_entity": 0.8546618819236755,
+        "value": "100",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "what is the history of Malaysia",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.7183169722557068,
+        "value": "history",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Just give me 3 songs quickly",
+    "entities": [
+      {
+        "start": 13,
+        "end": 14,
+        "value": "3",
+        "entity": "number"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9750869870185852,
+        "value": "Just",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "number",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.9997650980949402,
+        "value": "3",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.3481689989566803,
+        "value": "quickly",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search for german pop",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "german",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 11,
+        "end": 17,
+        "confidence_entity": 0.9956436157226562,
+        "value": "german",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 18,
+        "end": 21,
+        "confidence_entity": 0.9567880034446716,
+        "value": "pop",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "search for welsh choir songs",
+    "entities": [
+      {
+        "start": 11,
+        "end": 16,
+        "value": "welsh",
+        "entity": "language"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "artist",
+        "start": 11,
+        "end": 22,
+        "confidence_entity": 0.38147488236427307,
+        "value": "welsh choir",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want to hear brazilian samba",
+    "entities": [
+      {
+        "start": 15,
+        "end": 24,
+        "value": "brazilian",
+        "entity": "language"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "value": "samba",
+        "entity": "genre"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 15,
+        "end": 24,
+        "confidence_entity": 0.5546475052833557,
+        "value": "Brazilian",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 25,
+        "end": 30,
+        "confidence_entity": 0.5611522793769836,
+        "value": "samba",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i want french ballads by celine dion",
+    "entities": [
+      {
+        "start": 7,
+        "end": 13,
+        "value": "french",
+        "entity": "language"
+      },
+      {
+        "start": 14,
+        "end": 21,
+        "value": "ballads",
+        "entity": "genre"
+      },
+      {
+        "start": 25,
+        "end": 36,
+        "value": "celine dion",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 7,
+        "end": 13,
+        "confidence_entity": 0.9999048709869385,
+        "value": "french",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 14,
+        "end": 21,
+        "confidence_entity": 0.9895748496055603,
+        "value": "ballads",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 25,
+        "end": 36,
+        "confidence_entity": 0.43481388688087463,
+        "value": "celine dion",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "put on two hindi bollywood songs from arijit singh",
+    "entities": [
+      {
+        "start": 7,
+        "end": 10,
+        "value": "two",
+        "entity": "number"
+      },
+      {
+        "start": 11,
+        "end": 16,
+        "value": "hindi",
+        "entity": "language"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "value": "bollywood",
+        "entity": "genre"
+      },
+      {
+        "start": 38,
+        "end": 50,
+        "value": "arijit singh",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.9999418258666992,
+        "value": "two",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 11,
+        "end": 16,
+        "confidence_entity": 0.999882698059082,
+        "value": "hindi",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 17,
+        "end": 26,
+        "confidence_entity": 0.9689581394195557,
+        "value": "bollywood",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "artist",
+        "start": 38,
+        "end": 50,
+        "confidence_entity": 0.9999076128005981,
+        "value": "arijit singh",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "find two turkish rock songs from teoman",
+    "entities": [
+      {
+        "start": 5,
+        "end": 8,
+        "value": "two",
+        "entity": "number"
+      },
+      {
+        "start": 9,
+        "end": 16,
+        "value": "turkish",
+        "entity": "language"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "value": "rock",
+        "entity": "genre"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "value": "teoman",
+        "entity": "artist"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "number",
+        "start": 5,
+        "end": 8,
+        "confidence_entity": 0.9999425411224365,
+        "value": "two",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 9,
+        "end": 16,
+        "confidence_entity": 0.9999438524246216,
+        "value": "turkish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "genre",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.9992031455039978,
+        "value": "rock",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "language",
+        "start": 33,
+        "end": 39,
+        "confidence_entity": 0.8097369074821472,
+        "value": "teoman",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find zlem zipek movies",
+    "entities": [
+      {
+        "start": 5,
+        "end": 15,
+        "value": "zlem zipek",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 10,
+        "end": 15,
+        "confidence_entity": 0.8639096617698669,
+        "value": "zipek",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "find Home Away from Home",
+    "entities": [
+      {
+        "start": 5,
+        "end": 24,
+        "value": "Home Away from Home",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 5,
+        "end": 14,
+        "confidence_entity": 0.8701835870742798,
+        "value": "Home Away",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "title",
+        "start": 20,
+        "end": 24,
+        "confidence_entity": 0.4462496340274811,
+        "value": "Home",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "search for Get That Girl",
+    "entities": [
+      {
+        "start": 11,
+        "end": 24,
+        "value": "Get That Girl",
+        "entity": "title"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 15,
+        "end": 24,
+        "confidence_entity": 0.8107173442840576,
+        "value": "That Girl",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "show me Turkish movies",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "Turkish",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "language",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.5119736790657043,
+        "value": "turkish",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me British movies directed by A Bogolepova",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "British",
+        "entity": "country"
+      },
+      {
+        "start": 35,
+        "end": 47,
+        "value": "A Bogolepova",
+        "entity": "name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.9985387325286865,
+        "value": "British",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "artist",
+        "start": 23,
+        "end": 31,
+        "confidence_entity": 0.9849894046783447,
+        "value": "directed",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "name",
+        "start": 35,
+        "end": 47,
+        "confidence_entity": 0.8892663717269897,
+        "value": "A Bogolepova",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "is the slasher movie Halloween from 1978 available?",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "slasher",
+        "entity": "category"
+      },
+      {
+        "start": 21,
+        "end": 30,
+        "value": "Halloween",
+        "entity": "title"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "value": "1978",
+        "entity": "year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "category",
+        "start": 7,
+        "end": 14,
+        "confidence_entity": 0.9998055100440979,
+        "value": "slasher",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "year",
+        "start": 21,
+        "end": 30,
+        "confidence_entity": 0.6607394218444824,
+        "value": "Halloween",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "year",
+        "start": 36,
+        "end": 40,
+        "confidence_entity": 0.9997507929801941,
+        "value": "1978",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "suggest French noir classics from 1960",
+    "entities": [
+      {
+        "start": 8,
+        "end": 14,
+        "value": "French",
+        "entity": "country"
+      },
+      {
+        "start": 15,
+        "end": 19,
+        "value": "noir",
+        "entity": "category"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "value": "1960",
+        "entity": "year"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "country",
+        "start": 8,
+        "end": 14,
+        "confidence_entity": 0.9997310042381287,
+        "value": "french",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 15,
+        "end": 19,
+        "confidence_entity": 0.9408761262893677,
+        "value": "noir",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "category",
+        "start": 20,
+        "end": 28,
+        "confidence_entity": 0.9225813746452332,
+        "value": "classics",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "year",
+        "start": 34,
+        "end": 38,
+        "confidence_entity": 0.9997894167900085,
+        "value": "1960",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "show me A Pitboys Romance which is a silent drama",
+    "entities": [
+      {
+        "start": 8,
+        "end": 25,
+        "value": "A Pitboys Romance",
+        "entity": "title"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "value": "silent",
+        "entity": "category"
+      },
+      {
+        "start": 44,
+        "end": 49,
+        "value": "drama",
+        "entity": "category"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "title",
+        "start": 8,
+        "end": 17,
+        "confidence_entity": 0.828215479850769,
+        "value": "A Pitboys",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 18,
+        "end": 31,
+        "confidence_entity": 0.9649126529693604,
+        "value": "Romance which",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "category",
+        "start": 44,
+        "end": 49,
+        "confidence_entity": 0.9962683916091919,
+        "value": "drama",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  }
+]
