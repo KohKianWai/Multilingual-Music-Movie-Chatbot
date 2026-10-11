@@ -1,5 +1,7 @@
 ## Rasa Chatbot Setup
 
+A bilingual chatbot that provides personalized music and movie recommendations through natural language interactions, helping users discover content based on their preferences in multiple languages.
+
 ### Setup Instructions
 
 1. Create virtual environment
