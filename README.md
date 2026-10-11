@@ -1,6 +1,6 @@
 ## Multilingual Music and Movie Chatbot
 
-A bilingual chatbot that provides personalized music and movie recommendations through natural language interactions, helping users discover content based on their preferences in multiple languages.
+A multilingual chatbot that provides personalized music and movie recommendations through natural language interactions, helping users discover content based on their preferences in multiple languages.
 
 ### Setup Instructions
 
